@@ -1,4 +1,4 @@
-## REST API 
+## REST API with Node.js, Express, MongoDB
 
 ### TODOS:
 * Set up using an Express server
