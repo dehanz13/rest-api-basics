@@ -1,6 +1,6 @@
-### REST API 
+## REST API 
 
-# TODOS:
+### TODOS:
 * Set up using an Express server
 * Configure MongoDB with Mongoose
 * Create a Model in Mongoose
