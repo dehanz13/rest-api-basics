@@ -1,0 +1,49 @@
+GET http://localhost:5000/api/posts/
+
+### 
+
+POST http://localhost:3000/subscribers
+Content-type: application/json
+
+{
+	"name": "Amazing Person",
+	"subscribedToChannel": "Web Dev Simplified"
+}
+
+###
+
+GET http://localhost:3000/motivation/1
+
+### POSTS ###
+
+### POST
+POST http://localhost:5000/api/posts
+Content-type: application/json
+
+{
+	"title": "Post Three",
+	"body": "This is Post Three!"
+}
+
+### GET
+
+GET http://localhost:5000/api/posts/
+
+
+### GET single id
+
+GET http://localhost:5000/api/posts/6149722ba3b2c3b0a1186a31
+
+### DELETE
+
+DELETE http://localhost:5000/api/posts/6149732261ba2fa50f98656f
+
+###
+
+PATCH http://localhost:5000/api/posts/614974b3ad65c0776ae9ef6d
+Content-type: application/json
+
+{
+	"title": "Post Three UPDATED",
+	"body": "This is the UPDATED Post Three!"
+}
